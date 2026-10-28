@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reflectloop"
+version = "0.1.0"
+description = "Calibrated benefit-gated reflection: reflect only when a benefit model predicts reflection will help. Measured against always/never reflection on deterministic scripted tasks."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
